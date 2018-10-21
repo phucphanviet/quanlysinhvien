@@ -11,10 +11,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/bg_rounded"
         android:orientation="vertical">
 
@@ -28,9 +28,9 @@
                 android:id="@+id/textHocKy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
                 android:text="HỌC KỲ"
                 android:textStyle="bold" />
 
@@ -39,10 +39,10 @@
                 style="@style/Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp" />
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp" />
 
         </LinearLayout>
 
@@ -56,9 +56,9 @@
                 android:id="@+id/textNamHoc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
                 android:text="NĂM HỌC"
                 android:textStyle="bold" />
 
@@ -67,10 +67,10 @@
                 style="@style/Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp" />
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp" />
         </LinearLayout>
     </LinearLayout>
 
